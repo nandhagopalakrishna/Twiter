@@ -37,7 +37,8 @@ setupRoutes(app);
 // Error handling
 app.use(errorHandler);
 
-const PORT = process.env.PORT || 3000;
+// Render will provide the PORT
+const PORT = process.env.PORT || 10000;
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
