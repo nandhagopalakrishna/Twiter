@@ -6,8 +6,8 @@
     "node": ">=18.0.0"
   },
   "scripts": {
-    "start": "node src/index.js",
-    "dev": "node --watch src/index.js",
+    "start": "node src/server/index.js",
+    "dev": "node --watch src/server/index.js",
     "build": "echo 'No build step required'"
   },
   "dependencies": {
