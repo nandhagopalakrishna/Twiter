@@ -1,0 +1,1 @@
+export const API_URL = 'https://twitter-ai-reply-api.onrender.com';
